@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/unslider.css">
+  <link rel="stylesheet" type="text/css" href="css/extra.css">
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <script type="text/JavaScript" src="js/jquery.min.js"></script>
+  <script type="text/JavaScript" src="js/unslider.js"></script>
+
+
+  <title>CV Colque Paula</title>
+</head>
+<body>
+  <div id="container" >
+
+    <div id="menu">
+      <div id="foto"><img src="foto1.jpeg" width="170" height="300" > </div>
+      <ul>
+        <li><a href="#Presentación"> Presentación</a></li>
+        <li><a href="#Formación">Formación</a></li>
+        <li> <a href="#Habilidades">Habilidades</a></li>
+        <li><a href="#Portafolio">Portafolio</a></li>
+      </ul >
+    </div>
+    <div id="contenido">
+      <h1 id="presentacion" > Paula Colque</h1>
+      <h2> Estudiante de programación y de desarrollo web</h2>
+
+      <ul>
+        <li class="Datos-principales"> Nombre: Paula Julieta Colque</li>
+        <li class="Datos-principales"> Edad: 21 años</li>
+        <li class="Datos-principales"> Domicilio:Barrio Mutual YPF m-1 c-10.Luján de Cuyo</li>
+        <li class="Datos-principales">Mail: paulajulieta@live.com.ar</li>
+        <li class="Datos-principales">Telefono: +54 26 155 538 382</li>
+        <li class="Datos-principales">Mis redes:<a href="https://www.facebook.com/pauu.colque">Facebook</a> <a href="https://github.com/paulajulieta"> GitHub</a> </li>
+        <li class="Datos-principales"> Disponibilidad: Part time</li>
+
+      </ul>
+
+      <div id="Formación">
+        <ul >
+          <li class="titulo" >FORMACIÓN:</li>
+          <li > 2013:Instituto Santa María Goretti: Educación polimodal. Modalidad: Economía y gestión de las organizaciones.</li>
+          <li > 2014-2016: Universidad Nacional de Cuyo. Facultad de Derecho. 3 años de cursado</li>
+
+        </ul>
+        <ul>
+          <li class="titulo">ESTUDIOS ACTUALES:</li>
+          <li> 2017: Universidad Tecnologica Nacional. Tecnicatura superior de programación</li>
+          <li> 2017: Carrera de FullStack Web Developer en Greendemia Academy</li>
+        </ul>
+        <ul >
+          <li class="titulo"> OTROS CURSOS REALIZADOS:</li>
+          <li>Curso de fotografía en Bilioteca Alberdi</li>
+          <li>Taller de Django Girls Mendoza</li>
+        </ul>
+        <ul>
+          <li class="titulo"> IDIOMAS:</li>
+          <li>  inglés. Nivel alcanzado B1 </li>
+          <li> Italiano. Nivel alcanzado A2</li>
+        </ul>
+      </div>
+      <div id="Habilidades">
+        <ul>
+          <li class="titulo">HABILIDADES:</li>
+          <li  > Lenguajes que estoy aprendiendo: HTML, CSS, JavaScript.</li>
+          <li > futuros conocimiento a adquirir: JQuery, canvas, Node.js, MySQL, Docker.</li>
+          <li >Entre mis futuros proyectos se encuentran: sitio de noticias,crear juegos a la vez que se profundiza el conocimiento de lenguajes,crear mapas interactivos, entre otros.</li>
+        </ul>
+      </div>
+      <div id="Portafolio"> <li class="titulo">PORTAFOLIO (proximante)</li>
+        <div class="slider">
+          <ul>
+            <li> Sitio de noticias</li>
+            <li> Mapas interactivos</li>
+            <li>juego de rompecabezas</li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<script type="text/JavaScript">
+jQuery(document).ready(function($) {
+  $('.slider').unslider({
+    arrows: false,
+    autoplay: true
+    
+
+  });
+});
+</script>
+
+
+</body>
+</html>
